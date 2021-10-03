@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/236/702/non_2x/diagonal-black-background-with-golden-lines-vector.jpg);
+    background-size: auto auto;
+    background-repeat: no-repeat;   
+    font-style: italic;
+    font-family: sans-serif;
+    
+}
+.main{
+    margin: auto;
+}
+.image{
+  text-align: center;
+  margin-top: 20px;
+  clip-path: circle();
+    
+}
+.name{
+    
+    text-align: center;
+    color:white;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.insta{
+    border: 2px dashed white;
+    border-radius: 100px;
+    padding: 20px;
+    font-size: 30px;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin: auto;
+    text-shadow: 0.5px 0.5px 0.5px;
+}
+.insta:hover
+{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+color: black;
+transition: 0.4s;
+}
+.snapchat{
+    border: 2px dashed white;
+    border-radius: 100px;
+    padding: 20px;
+    font-size: 30px;
+    width: 500px;
+    margin-bottom: 20px;
+    text-align:center;
+    margin: auto;
+    text-shadow: 0.5px 0.5px 0.5px;
+}
+.snapchat:hover
+{
+    background-color:yellow;
+    color: black;
+    transition: 0.4s;
+}
+.hackerrank{
+    border: 2px dashed white;
+    border-radius: 100px;
+    padding: 20px;
+    font-size: 30px;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: auto;
+    text-shadow: 0.5px 0.5px 0.5px;
+}
+.hackerrank:hover
+{
+    background-color:green;
+    color: black;
+    transition: 0.4s;
+}
+.github{
+    border: 2px dashed white;
+    border-radius: 100px;
+    padding: 20px;
+    font-size: 30px;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin:auto;
+    text-shadow: 0.5px 0.5px 0.5px;
+}
+.github:hover
+{
+    background-color:black;
+    color: black;
+    transition: 0.4s;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+    
